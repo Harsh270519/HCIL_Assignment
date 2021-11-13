@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.Container {
+  background-image: url(h2.jpg);
+  height: max-content;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-variant: small-caps;
+  font-size: 100px;
+  font-family: fantasy;
+  letter-spacing: 20px;
+}
+
+.menu-1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu {
+  background: #184d47;
+  text-align: center;
+}
+
+.menu-ul {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.menu-ul li {
+  font-size: 17px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px 26px 26px 25px;
+}
+
+.a-menu {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-ul li:hover {
+  background: #5b8c5a;
+  transform: scale(1.1);
+}
+
+.Cont {
+  margin: 50px 50px 50px 5%;
+  width: 90%;
+  text-align: center;
+  background-image: url(b1.png);
+  height: max-content;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Heading {
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.item-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 0 0 50px 50px;
+  padding: 10px;
+}
+
+.Footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  background-color: whitesmoke;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="lay">
+      <div class="form">
+        <div class="button-box">
+          <div id="btn"></div>
+          <a href="C:\Users\Harsh\Desktop\HCIL\Home\Home.html"
+            ><button type="button" class="Login" onclick="login()">
+              Log In
+            </button></a
+          >
+          <a href="C:\Users\Harsh\Desktop\HCIL\Home\Home.html"
+            ><button type="button" class="Login" onclick="signup()">
+              Sign Up
+            </button></a
+          >
+        </div>
+
+        <form id="Log" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Username"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="Password"
+            required
+          />
+          <button type="submit" class="submit-btn">Log In</button>
+
+          <div class="centre-text">
+            <h3>OR Sign In Using</h3>
+          </div>
+
+          <div class="icons">
+            <img src="G1.png" />
+            <img src="F1.png" />
+            <img src="T1.png" />
+          </div>
+        </form>
+        <form id="Sign" class="input-group">
+          <input
+            type="email"
+            class="input-field"
+            placeholder="Email Id"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="Password"
+            required
+          />
+          <button type="submit" class="submit-btn">Sign Up</button>
+
+          <div class="centre-text">
+            <h3>OR Sign Up Using</h3>
+          </div>
+
+          <div class="icons">
+            <img src="G1.png" />
+            <img src="F1.png" />
+            <img src="T1.png" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      var x = document.getElementById("Log");
+      var y = document.getElementById("Sign");
+      var z = document.getElementById("btn");
+
+      function signup() {
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+      }
+
+      function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+      }
+    </script>
+  </body>
+</html>

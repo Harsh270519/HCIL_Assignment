@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function menu(){
+          var a = document.getElementById('menu-1');
+          if(window.pageYOffset > 220){
+              menu-1.classList.add('menu-1');
+          }
+          else{
+              menu-1.classList.remove('menu-1');
+          }
+      }
+
+      window.onscroll = function (){
+          menu();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="title">SHOP WELL</div>
+      <div class="menu" id="menu-1">
+        <ul class="menu-ul">
+          <a href="#" class="a-menu"><li>Home</li></a>
+          <a href="#Men" class="a-menu"><li>Men</li></a>
+          <a href="#Women" class="a-menu"><li>Women</li></a>
+          <a href="#Kids" class="a-menu"><li>Kids</li></a>
+          <a href="C:\Users\Harsh\Desktop\HCIL\Cart\Cart.html" class="a-menu"><li>Cart</li></a>
+          <a href="#" class="a-menu"><li>Payment</li></a>
+          <a href="#" class="a-menu"><li>Feedback</li></a>
+          <a href="C:\Users\Harsh\Desktop\HCIL\About Us\AboutUs.html" class="a-menu"><li>About Us</li></a>
+        </ul>
+      </div>
+    </div>
+
+    <!--Home Page-->
+    <div class="Cont">
+      <h1 class="Heading">MEN</h1>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="m1.jpg" class="item-image" />
+
+            <h1>Shirts</h1>
+            <p class="price">1499 /-</p>
+  
+            <p><button>Add to Cart</button></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="m2.jpg" class="item-image" />
+          <h1>Trousers</h1>
+          <p class="price">1999 /-</p>
+
+          <p><button>Add to Cart</button></p>
+
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="m3.jpg" class="item-image" />
+            <h1>Shoes</h1>
+            <p class="price">2000 /-</p>
+  
+            <p><button>Add to Cart</button></p>
+
+          </div>
+        </div>
+      </div>
+      <h1 class="Heading">WOMEN</h1>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="w1.png" class="item-image" />
+
+            <h1>Shirts</h1>
+            <p class="price">1499 /-</p>
+  
+            <p><button>Add to Cart</button></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="w2.jpeg" class="item-image" />
+          <h1>Trousers</h1>
+          <p class="price">1999 /-</p>
+
+          <p><button>Add to Cart</button></p>
+
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="w3.jpg" class="item-image" />
+            <h1>Shoes</h1>
+            <p class="price">2000 /-</p>
+  
+            <p><button>Add to Cart</button></p>
+
+          </div>
+        </div>
+      </div>
+
+      <h1 class="Heading">KIDS</h1>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="k1.jpg" class="item-image" />
+
+            <h1>Shirts</h1>
+            <p class="price">999 /-</p>
+  
+            <p><button>Add to Cart</button></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="k2.jpg" class="item-image" />
+          <h1>Trousers</h1>
+          <p class="price">999 /-</p>
+
+          <p><button>Add to Cart</button></p>
+
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="k3.jpg" class="item-image" />
+            <h1>Shoes</h1>
+            <p class="price">899 /-</p>
+  
+            <p><button>Add to Cart</button></p>
+
+          </div>
+        </div>
+      </div>
+    <!--Footer-->
+    <div class="Cont2">
+      <div class="Footer">
+        <h3>Contact Us</h3>
+        <p>Email Id: - shopwell@gmail.com</p>
+        <p>Phone No: - 0752-2551188</p>
+      </div>
+    </div>
+  </body>
+</html>
